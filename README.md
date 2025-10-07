@@ -12,13 +12,13 @@ the students math scores
 
 1. cleaning data
     - apply get_dummies pandas method to change categorical variables.
-    - change gender feature for numerical type (female: 1, male: 0).
-    - mapping the parental level of education feature to set integers since 1 until 5 to create hierarchy.
+    - change gender feature into numerical type (female: 1, male: 0).
+    - Assign integer values to the educational level of parents from 1 to 5 to create a hierarchy.
 
 2. baseline model
     - model: linearRegression
-    - split data in test, train for training and predictions
-    - try the model precission with the R2_score sklearn metric
+    - divide the data into test, training to train the model, and validate predictions.
+    - try the model precission with the  sklearn R2_score metric
 
 ## conclusions
 
