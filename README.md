@@ -20,9 +20,15 @@ the students math scores
     - divide the data into test, training to train the model, and validate predictions.
     - try the model precission with the  sklearn R2_score metric
 
-## conclusions
+3. scaled model
+    - model: linearRegression. 
+        - in this case, we have a data with boolean features and the integer features parental level of education,math score,reading score,writing score. it is recommended to scale this features for the coefficients interpretation, i used standarscaler to scale this features
 
-the model has an R2_score of 0.88, thats is a higher score.
+## conclusions
+1. baseline_model
+    - the model has an R2_score of 0.88, thats is a higher score.
+
+2. scaled_model
 
 ## Next step
 try to improve the model looking for others algorythms or modified variables and try other metrics to evaluate the model.
