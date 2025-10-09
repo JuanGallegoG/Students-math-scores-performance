@@ -57,4 +57,7 @@ the students math scores
 
 ## Next step
 try to improve the model looking for others algorythms or modified variables and try other metrics to evaluate the model.
+
+analyze the residuals of the model
+
 try to see the diferences between unscaled and scaled models metrics
