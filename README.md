@@ -52,7 +52,8 @@ the students math scores
 3. coefficients
 ![coefficients](images/coefficients.png)
 - here we see two variables that have a major impact, gender and writing score, we can say that when the student is a male (remember that female: 1, male: 0) the prediction tends to increases, this is the prediction model, if we give them more variables like be late or not, or old grade point averages the coefficient can change a lot
-- and the writing score is positive, when the writing score increses, the prediction increses, so when a student has a great writing score, the math score will be positive 
+- and the writing score is positive, when the writing score increses, the prediction increses, so when a student has a great writing score, the math score will be positive.
+![comparing](images/comparin_coefficients_unscaled_scaled_models.png)
 - We see that when numerical variables are not scaled, it is not possible to see their importance at the time of prediction. When we scale them, we can see that the writing score characteristic has a significant impact on the result, which is not visible without scaling. However, the gender variable remains the same, as it has the same value in both databases (int female:1, male: 0).
 
 ## Next step
